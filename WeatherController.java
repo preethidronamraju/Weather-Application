@@ -35,8 +35,7 @@ public class WeatherController {
 
     @RequestMapping(value = "/checkServer", method = RequestMethod.GET)
     public String sample(){
-        return "Welcome to Chicago Weather Updates!!"
-        		+ "";
+        return "HelloWorld";
     }
 
 
